@@ -1,0 +1,139 @@
+
+    html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.nav-link{
+    font-size: 18px;
+}
+
+.btn{
+    border: 2px solid blue;
+    background-color: #0c3a53;
+    color: white;
+    width: 200px;
+    border-radius: 20px;
+    /* margin-left: 10px; */
+}
+
+.btn:hover{
+    border: 2px solid;
+    background-color: white;
+    color: black;
+    width: 200px;
+    border-radius: 20px;
+}
+
+/* Home */
+
+.home-img{
+    width: 300px;
+    /* height: 300px; */
+    margin-left: 50px;
+}
+
+.left-col{
+    margin-top: 100px!important;
+    /* margin-left: 5px; */
+}
+
+.containers{
+    background-color:azure;
+}
+
+/* Developer Roles */
+
+.box{
+    transition: background-color 0.3s ease-in 0s!important;
+}
+
+.box:hover{
+    background-color: #23bab1!important;
+    color: white;
+}
+
+/* Portfolio */
+
+.btn2{
+    padding: 8px 15px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #d9d9d9!important;
+    font-weight: bold;
+}
+.btn2:hover{
+    padding: 8px 15px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #0c3a53!important;
+    color: white;
+    font-weight: bold;
+}
+
+.port{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.port:hover{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#0c3a53!important;
+}
+
+
+.portfolio{
+    justify-content: center;
+    align-items: center;
+}
+
+.port-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* WORK SECTIOn */
+
+.work-img{
+    margin-top: 80px;
+    margin-left: 10px;
+    width: 350px;
+    /* height: 40px; */
+}
+
+.work{
+    font-size: larger;
+}
+
+
+/* MORE Section  */
+
+.more-p{
+    font-size: larger;
+}
+
+.more-btn{
+    font-size: 1.5rem;
+    /* font-weight: bold; */
+}
+
+/* Footer Section */
+
+.footer{
+    background-color: #0c3a53!important;
+}
+
+.footer-p{
+    color: white;
+}
